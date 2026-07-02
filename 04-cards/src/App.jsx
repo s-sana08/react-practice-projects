@@ -112,8 +112,9 @@ console.log(jobs);
   return (
     <>
     <div className="parent">
-      {jobs.map(function(elem){
-        return <Card companyName={elem.companyName} 
+      {jobs.map(function(elem,idx){
+        return <div key={idx}>
+          <Card companyName={elem.companyName} 
         brandLogo={elem.brandLogo} 
         postedTime={elem.postedTime} 
         position={elem.position} 
@@ -122,6 +123,7 @@ console.log(jobs);
         pay={elem.pay} 
         location={elem.location} 
         />
+        </div>
       })}
     </div>
     </>
