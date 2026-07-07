@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button{
+  margin: 10px 5px;
+  background-color: gainsboro;
+  color: black;
+  border-color: gainsboro;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+h1{
+  background-color: gainsboro;
+  margin: 10px;
+  padding: 10px 80px;
+  width:fit-content;
+  font-size: 100px;
+  border-radius: 10px;
+}
